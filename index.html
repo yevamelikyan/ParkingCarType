@@ -8,26 +8,19 @@
   </head>
   
   <body> 
-    <id=body>
-  <h1 id="header" style="text-align:center;color:white; font-size: 80px;">PARKING APP</h1> 
-  <h4 id="select" style="text-align:center;color: white;font-size: 35px;">Please Select Your Car Type</h4> 
-   <div id="images">
-      <img src="https://www.cstatic-images.com/car-pictures/main/usd00cas082b021001.png" alt="cstatic-images.com" align="middle" style="width:400px;height:250px;border:5px solid PaleVioletRed; margin:15px 30px;vertical-align:middle"">
-      <img src="https://www.cstatic-images.com/car-pictures/main/usc90doc201a021001.png" alt="cstatic-images.com" align="middle"  style="width:400px;height:250px;border:5px solid PaleVioletRed; margin:15px 30px;">
+    <h1 id="header" style="text-align:center;color:white; font-size: 80px;">PARKING APP</h1> 
+    <h4 id="select" style="text-align:center;color: white;font-size: 35px;">Please Select Your Car Type</h4> 
+    <div id="images">
+      <img src="https://www.cstatic-images.com/car-pictures/main/usd00cas082b021001.png" alt="suv" align="middle" id="suv-image">
+      <img src="https://www.cstatic-images.com/car-pictures/main/usc90doc201a021001.png" alt="sedan" align="middle" id="sedan-image">
     </div>
-  
-
-  <input type="button" value="SUV" id=suv>
-  <input type="button" value="SEDAN" id=sedan>
-  .innerHTML = getRndInteger(1,100)">SUV</button>
-   <button onclick="document.getElementById('demo')
-  .innerHTML = getRndInteger(101,200)">SEDAN</button>
  
+    <button onclick="getRndInteger(1,100)" id="suv">SUV</button>
+    <button onclick="getRndInteger(101,200)" id="sedan">SEDAN</button>
 
-    </div>
     <div id="ParkingSpot">
       <label> Your Parking Spot Is </label>
-      <span id="ParkingSpotVAL"></span>
+      <span id="getRndInteger"></span>
     </div>
     <br>
 
