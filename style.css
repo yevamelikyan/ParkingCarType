@@ -60,3 +60,17 @@ background-color:LightPink;
   margin: 40px 100px;
 }
 
+#suv-image {
+  width: 400px;
+  height: 250px;
+  border: 5px solid PaleVioletRed;
+  margin: 15px 30px;
+  vertical-align: middle;
+}
+
+#sedan-image {
+  width: 400px;
+  height: 250px;
+  border: 5px solid PaleVioletRed;
+  margin: 15px 30px; 
+}
