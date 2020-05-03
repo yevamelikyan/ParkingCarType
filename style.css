@@ -1,7 +1,10 @@
 body {background-color: LavenderBlush;}
 #header {
 background-color:LightPink;
- font-weight: 900
+font-weight: 900;
+text-align: center;
+color: white; 
+font-size: 80px;
 }
 
 #select { 
@@ -74,3 +77,55 @@ background-color:LightPink;
   border: 5px solid PaleVioletRed;
   margin: 15px 30px; 
 }
+
+#submit {
+ width: 100%;
+  background-color: PaleVioletRed;
+  color: white;
+  padding: 14px 20px;
+  cursor: pointer;
+  text-align: center;
+  font-size: 24px;
+  font-family:  monospace
+} 
+
+#input {
+   background-color: pink;
+  width: 100%;
+  padding: 14px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 4px solid white;
+  border-radius: 2px; 
+  box-sizing: border-box;
+  background-color: pink;
+  color: White;
+}
+
+#nm {  
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  color: PaleVioletRed ;
+  text-align: center;
+  padding: 10px;
+  height: 50px;
+  font-weight: 900
+}
+#surn {
+  font-family:  Georgia, 'Times New Roman', Times, serif;
+  color: PaleVioletRed ;
+  text-align: center;
+  padding: 10px;
+  height: 50px;
+  font-weight: 900
+}
+
+}
+
+
